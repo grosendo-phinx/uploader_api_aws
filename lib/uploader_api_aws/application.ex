@@ -13,7 +13,7 @@ defmodule UploaderApiAws.Application do
       # Start the endpoint when the application starts
       UploaderApiAwsWeb.Endpoint,
       # Starts a worker by calling: UploaderApiAws.Worker.start_link(arg)
-      { UploaderApiAws.Buffer, [] }
+      {UploaderApiAws.Buffer, []}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
